@@ -5,41 +5,49 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbinti-d <hbinti-d@student.42iskandar      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/28 12:26:21 by hbinti-d          #+#    #+#             */
-/*   Updated: 2025/04/28 12:26:40 by hbinti-d         ###   ########.fr       */
+/*   Created: 2025/04/29 14:59:50 by hbinti-d          #+#    #+#             */
+/*   Updated: 2025/04/29 15:00:09 by hbinti-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <stdio.h>
 #include <stdlib.h>
-// #include <string.h>
 
-char	*ft_strdup(char *src)
+int	*ft_range(int min, int max)
 {
-	char	*dest;
-	int		i;
-	int		lenght;
+	int	*array;
+	int	i;
 
-	lenght = 0;
-	while (src[lenght])
-		lenght++;
-	dest = (char *) malloc(sizeof(char) * (lenght + 1));
-	if (dest == NULL)
-		return (NULL);
 	i = 0;
-	while (i < lenght)
+	array = (int *) malloc(sizeof(int) * ((max - min) + 1));
+	if (min >= max)
 	{
-		dest[i] = src[i];
-		i++;
+		array = NULL;
+		return (0);
 	}
-	dest[i] = '\0';
-	return (dest);
+	while (min < max)
+	{
+		array[i] = min;
+		i++;
+		min++;
+	}
+	return (array);
 }
 /* 
 int	main(void)
 {
-	char	*src = "string";
+	int	min = -10;
+	int	max = 10;
+	int	i = 0;
+	int	*range = ft_range(min, max);
+	int	size = max - min;
 
-	printf("My: %s\n", ft_strdup(src));
-	printf("Or: %s\n", strdup(src));
+	while (i < size)
+	{
+		printf("%d\n", range[i]);
+		i++;
+	}
+	// In the end the allocated memory needs to be free
+	// When we free 'range', we ended up releasing 'array', as it's a pointer
+	free(range);
 } */
