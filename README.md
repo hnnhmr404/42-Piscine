@@ -13,7 +13,7 @@ C02: 70 (Pass) — Completed up to ex10
 
 C03: 100 (Pass)
 
-C04: 70 (Pass) — Completed up to ex05
+C04: 70 (Pass) — Completed up to ex04
 
 C05: 80 (Pass) — Completed up to ex07
 
@@ -29,4 +29,4 @@ Rush00: 112 (Pass)
 
 Rush01: 105 (Pass)
 
-Note: After the Piscine, I continued working on all exercises and was eventually able to complete all projects to a 100% standard. The marks listed above reflect my official Moulinette scores during the Piscine, along with the exercise I reached for each.
+Note: After the Piscine, I continued working on the remaining exercises and successfully completed all of them. These versions are named with an uppercase “E” (e.g., Ex03) to distinguish them. They include comments for clarity and explanation, but if all comments are removed, they pass Norminette without issues. The scores listed above reflect my official Moulinette results during the Piscine.
