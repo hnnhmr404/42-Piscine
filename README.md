@@ -29,4 +29,4 @@ Rush00: 112 (Pass)
 
 Rush01: 105 (Pass)
 
-Note: After the Piscine, I continued working on the remaining exercises and successfully completed all of them. These versions are named with an uppercase “E” (e.g., Ex03) to distinguish them. They include comments for clarity and explanation, but if all comments are removed, they pass Norminette without issues. The scores listed above reflect my official Moulinette results during the Piscine.
+Note: After the Piscine, I continued working on the remaining exercises and successfully completed all of them. These versions are named with an uppercase “E” (e.g., Ex03) to distinguish them. They include comments for clarity and explanation. The scores listed above reflect my official Moulinette results during the Piscine.

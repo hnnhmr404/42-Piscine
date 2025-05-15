@@ -1,17 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
+#    makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: hbinti-d <hbinti-d@student.42iskandar      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/05/15 13:39:44 by hbinti-d          #+#    #+#              #
-#    Updated: 2025/05/15 14:30:55 by hbinti-d         ###   ########.fr        #
+#    Created: 2025/05/15 14:18:46 by hbinti-d          #+#    #+#              #
+#    Updated: 2025/05/15 14:27:00 by hbinti-d         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ft_display_file
-SRCS = ./ft_display_file.c
+NAME = ft_cat
+SRCS = ./ft_cat.c
 
 # Objs receives the same values as SRCs only exchanges .c for .o
 OBJS = ${SRCS:.c=.o}
